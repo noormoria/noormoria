@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="300" viewBox="0 0 1120 300" role="img" aria-label="Noor Moria, Data Science student at University of Jeddah">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#fffaf9"/><stop offset="1" stop-color="#faecee"/></linearGradient>
+  <linearGradient id="rose" x1="0" y1="1" x2="0" y2="0"><stop offset="0" stop-color="#efd3d5"/><stop offset="1" stop-color="#c88f99"/></linearGradient>
+  <linearGradient id="title" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#87535c"/><stop offset="1" stop-color="#bd808b"/></linearGradient>
+</defs>
+<rect width="1120" height="300" rx="24" fill="url(#bg)"/>
+<circle cx="1060" cy="-55" r="235" fill="#f3dfe2" opacity=".40"/>
+<circle cx="20" cy="325" r="180" fill="#f4e4e5" opacity=".50"/>
+<path d="M0 258 Q260 219 460 267 T970 254 T1120 256" fill="none" stroke="#e9c4ca" stroke-width="2" opacity=".75"/>
+<path d="M0 276 Q290 246 515 283 T1120 276" fill="none" stroke="#f2dce0" stroke-width="14" opacity=".65"/>
+<g opacity=".72" fill="url(#rose)">
+<rect x="700" y="188" width="38" height="64" rx="3"/>
+<rect x="750" y="168" width="38" height="84" rx="3"/>
+<rect x="800" y="139" width="38" height="113" rx="3"/>
+<rect x="850" y="161" width="38" height="91" rx="3"/>
+<rect x="900" y="111" width="38" height="141" rx="3"/>
+<rect x="950" y="91" width="38" height="161" rx="3"/>
+<rect x="1000" y="129" width="38" height="123" rx="3"/>
+</g>
+<path d="M681 186 C755 164 783 150 820 155 S889 114 915 122 S977 87 1024 61" stroke="#bc7987" stroke-width="3.5" stroke-linecap="round" fill="none" opacity=".83"/>
+<g fill="#bc7987"><circle cx="681" cy="186" r="5"/><circle cx="820" cy="155" r="5"/><circle cx="915" cy="122" r="5"/><circle cx="1024" cy="61" r="6"/></g>
+<text x="75" y="125" font-family="Georgia, 'Times New Roman', serif" font-size="66" letter-spacing="5" fill="url(#title)">NOOR MORIA</text>
+<line x1="78" y1="148" x2="465" y2="148" stroke="#d6a1aa" stroke-width="2"/>
+<text x="79" y="187" font-family="Arial, Helvetica, sans-serif" font-size="20" letter-spacing="3.2" fill="#8d5c66">DATA SCIENCE STUDENT</text>
+<text x="79" y="222" font-family="Arial, Helvetica, sans-serif" font-size="16" letter-spacing="1.6" fill="#ad7f86">UNIVERSITY OF JEDDAH</text>
+</svg>

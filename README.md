@@ -41,9 +41,6 @@
 **[Navigate — Customer Retention Intelligence](https://github.com/noormoria/navigate)**  
 A customer retention tool focused on churn risk analysis and retention prioritization.
 
-**[Customer Churn Analysis](https://github.com/noormoria/customer-churn-analysis)**  
-Exploring customer churn through Python-based data cleaning, analysis, and visualization.
-
 **[Finora — Financial Tools](https://github.com/noormoria/finora)**  
 Practical tools for calculating, analyzing, and understanding accounting and financial figures.
 

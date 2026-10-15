@@ -1,0 +1,103 @@
+<svg width="1600" height="480" viewBox="0 0 1600 480" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Noor Moria Data Scientist animated banner">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1600" y2="480" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F9F4F5"/>
+      <stop offset="1" stop-color="#F7EFF1"/>
+    </linearGradient>
+    <linearGradient id="barGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop stop-color="#DFA5B3"/>
+      <stop offset="1" stop-color="#F3DBE0"/>
+    </linearGradient>
+    <linearGradient id="lineGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#C46E88"/>
+      <stop offset="1" stop-color="#C85F7D"/>
+    </linearGradient>
+    <style>
+      .name { font: 700 112px Georgia, 'Times New Roman', serif; letter-spacing: 1px; fill: #BE7A8A; }
+      .title { font: 500 42px Arial, Helvetica, sans-serif; letter-spacing: 12px; fill: #C08A96; }
+      .line { stroke: #D8A2AE; stroke-width: 3; opacity: .95; }
+      .wave1 { fill: #F6E8EB; opacity: .95; }
+      .wave2 { fill: #F3E1E5; opacity: .8; }
+      .waveStroke { stroke: #E2A8B4; stroke-width: 3; fill: none; opacity: .78; }
+      .spark { fill: #EABBC4; opacity: .85; }
+      .bar1 { animation: b1 3.2s ease-in-out infinite alternate; transform-origin: bottom; }
+      .bar2 { animation: b2 2.8s ease-in-out infinite alternate; transform-origin: bottom; }
+      .bar3 { animation: b3 3.4s ease-in-out infinite alternate; transform-origin: bottom; }
+      .bar4 { animation: b4 3s ease-in-out infinite alternate; transform-origin: bottom; }
+      .bar5 { animation: b5 3.6s ease-in-out infinite alternate; transform-origin: bottom; }
+      .bar6 { animation: b6 2.9s ease-in-out infinite alternate; transform-origin: bottom; }
+      .chartLine { stroke: url(#lineGrad); stroke-width: 5; stroke-linecap: round; stroke-linejoin: round; fill: none; }
+      .chartLinePath { stroke-dasharray: 1600; stroke-dashoffset: 1600; animation: draw 4s ease-in-out infinite; }
+      .point1 { animation: p1 4s ease-in-out infinite; }
+      .point2 { animation: p2 4s ease-in-out infinite; }
+      .point3 { animation: p3 4s ease-in-out infinite; }
+      .point4 { animation: p4 4s ease-in-out infinite; }
+      .point5 { animation: p5 4s ease-in-out infinite; }
+      .arrow { animation: arrowFloat 2.4s ease-in-out infinite; transform-origin: center; }
+      @keyframes draw {
+        0% { stroke-dashoffset: 1600; opacity: .5; }
+        20% { opacity: 1; }
+        70% { stroke-dashoffset: 0; opacity: 1; }
+        100% { stroke-dashoffset: 0; opacity: .95; }
+      }
+      @keyframes b1 { from { transform: scaleY(.88);} to {transform: scaleY(1.05);} }
+      @keyframes b2 { from { transform: scaleY(.72);} to {transform: scaleY(1.08);} }
+      @keyframes b3 { from { transform: scaleY(.9);} to {transform: scaleY(1.12);} }
+      @keyframes b4 { from { transform: scaleY(.74);} to {transform: scaleY(1.09);} }
+      @keyframes b5 { from { transform: scaleY(.85);} to {transform: scaleY(1.14);} }
+      @keyframes b6 { from { transform: scaleY(.76);} to {transform: scaleY(1.11);} }
+      @keyframes p1 { 0%,12% {opacity: .15;} 16%,100% {opacity: 1;} }
+      @keyframes p2 { 0%,26% {opacity: .15;} 30%,100% {opacity: 1;} }
+      @keyframes p3 { 0%,40% {opacity: .15;} 44%,100% {opacity: 1;} }
+      @keyframes p4 { 0%,56% {opacity: .15;} 60%,100% {opacity: 1;} }
+      @keyframes p5 { 0%,72% {opacity: .15;} 76%,100% {opacity: 1;} }
+      @keyframes arrowFloat { 0%,100% { transform: translate(0,0);} 50% { transform: translate(5px,-6px);} }
+    </style>
+  </defs>
+
+  <rect width="1600" height="480" fill="url(#bg)"/>
+  <circle cx="1490" cy="58" r="190" fill="#F3E5E8" opacity="0.9"/>
+  <circle cx="180" cy="420" r="180" fill="#F5E9EC" opacity="0.7"/>
+
+  <text x="130" y="190" class="name">NOOR MORIA</text>
+  <line x1="130" y1="240" x2="630" y2="240" class="line"/>
+  <text x="130" y="330" class="title">DATA SCIENTIST</text>
+
+  <path d="M0 356 C180 316, 310 330, 470 356 C620 380, 760 418, 940 402 C1110 386, 1280 336, 1600 268 L1600 480 L0 480 Z" class="wave1"/>
+  <path d="M0 390 C220 352, 360 378, 520 408 C760 454, 1010 452, 1600 360 L1600 480 L0 480 Z" class="wave2"/>
+  <path d="M0 356 C180 316, 310 330, 470 356 C620 380, 760 418, 940 402 C1110 386, 1280 336, 1600 268" class="waveStroke"/>
+
+  <!-- sparkles -->
+  <g transform="translate(1188 142)">
+    <path class="spark" d="M0 -14 L4 -4 L14 0 L4 4 L0 14 L-4 4 L-14 0 L-4 -4 Z"/>
+  </g>
+  <g transform="translate(1475 205)">
+    <path class="spark" d="M0 -12 L3 -3 L12 0 L3 3 L0 12 L-3 3 L-12 0 L-3 -3 Z"/>
+  </g>
+  <g transform="translate(928 234)">
+    <path class="spark" d="M0 -13 L4 -4 L13 0 L4 4 L0 13 L-4 4 L-13 0 L-4 -4 Z"/>
+  </g>
+
+  <!-- chart bars -->
+  <g transform="translate(968 224)">
+    <rect class="bar1" x="0" y="74" width="72" height="126" rx="10" fill="url(#barGrad)"/>
+    <rect class="bar2" x="94" y="38" width="72" height="162" rx="10" fill="url(#barGrad)"/>
+    <rect class="bar3" x="188" y="58" width="72" height="142" rx="10" fill="url(#barGrad)"/>
+    <rect class="bar4" x="282" y="16" width="72" height="184" rx="10" fill="url(#barGrad)"/>
+    <rect class="bar5" x="376" y="-22" width="72" height="222" rx="10" fill="url(#barGrad)"/>
+    <rect class="bar6" x="470" y="-76" width="72" height="276" rx="10" fill="url(#barGrad)"/>
+  </g>
+
+  <!-- animated trend line -->
+  <g>
+    <path class="chartLine chartLinePath" d="M968 298 C1010 284, 1024 278, 1062 270 C1098 262, 1112 238, 1150 226 C1186 214, 1215 232, 1243 220 C1281 204, 1320 164, 1360 146 C1408 125, 1454 84, 1515 28"/>
+    <circle class="point1" cx="968" cy="298" r="10" fill="#C85F7D"/>
+    <circle class="point2" cx="1150" cy="226" r="10" fill="#C85F7D"/>
+    <circle class="point3" cx="1243" cy="220" r="10" fill="#C85F7D"/>
+    <circle class="point4" cx="1360" cy="146" r="10" fill="#C85F7D"/>
+    <circle class="point5" cx="1454" cy="84" r="10" fill="#C85F7D"/>
+    <g class="arrow">
+      <path d="M1500 45 L1515 28 L1508 49" fill="none" stroke="#C85F7D" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+  </g>
+</svg>
